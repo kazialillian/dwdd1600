@@ -8,8 +8,8 @@ body {
 
 /*--- this is where I format the header. --*/
 header {
-  color:#08403E;
-  background-color:#B57114;
+  color:#062f2d;
+  background-color:#e88c0b;
   padding: 32px 32px;
 }
 header h1{
@@ -37,14 +37,14 @@ nav ul{
 nav ul li a{
   font-size: 1.1rem;
   text-decoration: none;
-  color: #B57114;
+  color: #e88c0b;
   font-weight: 400;
   display: block;
   padding: 18px 16px;
 }
 
 nav li.active a{ 
-  background-color: #B57114;
+  background-color: #e88c0b;
   color: #08403E;
 }
 
@@ -74,9 +74,10 @@ main p {
 main ol {
   padding: .5rem 3vw;
   background-color: #706513;
-  width: 18rem;
+  width: 40rem;
   border: 2px solid #08403E;
   border-radius: .5rem;
+  color:#f2e3d5;
 }
 
 main dl dt {
@@ -85,7 +86,7 @@ main dl dt {
 }
 
 main dl dd {
-  color: #b57114;
+  color: #e88c0b;
   font-size: .9rem;
 }
 
@@ -102,7 +103,6 @@ main ul li{
 
 main address{
   font-style: italic;
-  background-color:#706513;
   padding: .5rem .5rem .5rem .8rem;
 }
 
@@ -111,7 +111,7 @@ main a {
 }
 
 main a:hover {
-  color:#B57114;
+  color:#e88c0b;
 }
 
 figure.wrapped {
