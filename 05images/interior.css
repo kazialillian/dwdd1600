@@ -8,8 +8,8 @@ body {
 
 /*--- this is where I format the header. --*/
 header {
-  color:#062f2d;
-  background-color:#e88c0b;
+  color:#08403E;
+  background-color:#f2e3d5;
   padding: 32px 32px;
 }
 header h1{
@@ -37,14 +37,14 @@ nav ul{
 nav ul li a{
   font-size: 1.1rem;
   text-decoration: none;
-  color: #e88c0b;
+  color: #f2e3d5;
   font-weight: 400;
   display: block;
   padding: 18px 16px;
 }
 
 nav li.active a{ 
-  background-color: #e88c0b;
+  background-color: #f2e3d5;
   color: #08403E;
 }
 
@@ -54,65 +54,66 @@ nav a:hover{
 
 /*--- this is where I format main body. ---*/
 main {
-padding: 0px 32px;
-}
-
-main h1 {
-  color: #706513;
-}
-
-main h2 {
-  color: #08403E;
-  margin-bottom: .2rem;
-}
-
-main p {
-  color: #520120;
-  margin: 0 0 .4rem 0;
-}
-
-main ol {
-  padding: .5rem 3vw;
-  background-color: #706513;
-  width: 40rem;
-  border: 2px solid #08403E;
-  border-radius: .5rem;
-  color:#f2e3d5;
-}
-
-main dl dt {
-  color:#520120;
-  font-weight: 800;
-}
-
-main dl dd {
-  color: #e88c0b;
-  font-size: .9rem;
-}
-
-main ul {
-  list-style-type: square;
-  color:#520120;
-}
-
-main ul li{
-  line-height: 125%;
-  margin-bottom: .5rem;
-  font-size: .9rem;
-}
-
-main address{
-  font-style: italic;
-  padding: .5rem .5rem .5rem .8rem;
-}
-
-main a {
-  color:#520120;
-}
-
-main a:hover {
-  color:#e88c0b;
-}
+  padding: 0px 32px;
+  }
+  
+  main h1 {
+    color: #706513;
+  }
+  
+  main h2 {
+    color: #08403E;
+    margin-bottom: .2rem;
+  }
+  
+  main p {
+    color: #520120;
+    margin: 0 0 .4rem 0;
+  }
+  
+  main ol {
+    padding: .5rem 3vw;
+    background-color: #706513;
+    width: 60rem;
+    border: 2px solid #08403E;
+    border-radius: .5rem;
+    color:#f2e3d5;
+  }
+  
+  main dl dt {
+    color:#08403E;
+    font-weight: 800;
+  }
+  
+  main dl dd {
+    color: #520120;
+    font-size: .9rem;
+  }
+  
+  main ul {
+    list-style-type: square;
+    color:#520120;
+  }
+  
+  main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+  }
+  
+  main address{
+    font-style: italic;
+    color:#08403E;
+    padding: .0rem .5rem .8rem .5rem;
+  }
+  
+  main a {
+    color:#520120;
+  }
+  
+  main a:hover {
+    color:#B57114;
+  }
 
 figure.wrapped {
   width: 30%;
@@ -147,7 +148,7 @@ div.gallery figcaption {
 
 /*--- this is where I format my footer. ---*/
 footer { 
-  background-color: #B57114;
+  background-color: #f2e3d5;
   text-align: center;
   color:#08403E;
   padding: 1rem 0;
