@@ -9,7 +9,7 @@ body {
 /*--- this is where I format the header. --*/
 header {
   color:#08403E;
-  background-color:#B57114;
+  background-color:#f2e3d5;
   padding: 32px 32px;
 }
 header h1{
@@ -37,14 +37,14 @@ nav ul{
 nav ul li a{
   font-size: 1.1rem;
   text-decoration: none;
-  color: #B57114;
+  color: #f2e3d5;
   font-weight: 400;
   display: block;
   padding: 18px 16px;
 }
 
 nav li.active a{ 
-  background-color: #B57114;
+  background-color: #f2e3d5;
   color: #08403E;
 }
 
@@ -74,9 +74,10 @@ main p {
 main ol {
   padding: .5rem 3vw;
   background-color: #706513;
-  width: 18rem;
+  width: 60rem;
   border: 2px solid #08403E;
   border-radius: .5rem;
+  color:#f2e3d5;
 }
 
 main dl dt {
@@ -102,8 +103,8 @@ main ul li{
 
 main address{
   font-style: italic;
-  background-color:#706513;
-  padding: .5rem .5rem .5rem .8rem;
+  color:#08403E;
+  padding: .0rem .5rem .8rem .5rem;
 }
 
 main a {
@@ -116,7 +117,7 @@ main a:hover {
 
 /*--- this is where I format my footer. ---*/
 footer { 
-  background-color: #B57114;
+  background-color: #f2e3d5;
   text-align: center;
   color:#08403E;
   padding: 1rem 0;
