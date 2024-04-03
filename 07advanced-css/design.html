@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Kazia Pace">
+    <meta name="description" content="Interior Design Website">
+    <title>Artful Interiors: Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="interior.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+  </head>
+  <body id="top">
+<!--Start of my page header-->
+<header>
+    <img src="interior_design_images/logo1.png" alt="site logo" width="100" height="65">
+    <div>
+      <h1>Artful Interiors</h1>
+      <p>Dare to Design - Infuse Artistry into Your Home </p>
+    </div>
+</header>
+
+<!--Start of my page navigation--> 
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="interior_style.html"> Interior Styles</a></li>
+        <li><a href="interior_gallery.html"> Interior Gallary</a></li>
+        <li class="active"><a href="design.html"> Design Style</a></li>
+        <li><a href="contact.html"> Contact Us</a></li>
+    </ul>
+</nav>
+
+<!--Start of my page content-->
+<main>
+<h1>Schedule An Appointment With Our Interior Designers</h1>
+<form method="get" class="myForm" action="thanks.html">
+
+<fieldset>
+    <legend>Contact Infromation</legend>
+      <label>First Name*<input type="text" name="fname" required>
+      </label>
+      <label>Last Name*<input type="text" name="lname" required>
+      </label>
+      <label>Cell Number*<input type="tel" name="phone" required placeholder="000-000-0000">
+      </label>
+</fieldset>
+
+<fieldset>
+  <legend>Select Your Preferred Interior Design Styles</legend>
+      <label><input type="checkbox" name="art-deco" value="chosen"> Art-Deco</label>
+      <label><input type="checkbox" name="minimal" value="chosen"> Minimalism</label>
+      <label><input type="checkbox" name="maximal" value="chosen"> Maximalism</label>
+      <label><input type="checkbox" name="eclectic" value="chosen"> Eclectic</label>
+      <label><input type="checkbox" name="boho" value="chosen"> Bohemain</label>
+      <label><input type="checkbox" name="modern" value="chosen"> Mid-Century Modern</label>
+</fieldset>
+
+<fieldset>
+<legend>Appointment Options</legend>
+    <label><input type="radio" name="appointment" value="office"> At our Design Office</label>
+    <label><input type="radio" name="appointment" value="home"> In your Home</label> 
+    <label><input type="radio" name="appointment" value="meeting"> Virtual Meeting</label> 
+
+    <label>Preferred Appiontment Time
+    <select name="time">
+      <option value="none">Please Select</option>
+      <option value="morning">9:00am to 11:00am</option>
+      <option value="afternoon">12:00pm to 2:00pm</option>
+      <option value="evening">4:00pm to 6:00am</option>
+    </select>
+    </label>
+</fieldset>
+
+<fieldset>
+  <legend>What Would You Like to Focus on During The Appointment?</legend>
+<label>Let us Know: 
+  <textarea name="comments"></textarea>
+</label>
+</fieldset>
+
+
+  <input type="submit" value="Complete">
+</form>
+</main>
+
+
+<!--Start of my footer-->
+<footer>
+    <p>&copy; 2024 | Kazia Pace &bull; <a href="mailto:sampleemail@gmail.com">Email Here</a> &bull; <a href="tel:1843-233-3445">Call Here</a><br></p>
+</footer>
+  </body>
+</html>

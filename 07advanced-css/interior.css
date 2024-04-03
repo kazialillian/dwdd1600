@@ -1,0 +1,274 @@
+/*--- this is my css page. --*/
+/* prvent problems with different browsers*/
+* {box-sizing: border-box;}
+
+body {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/*--- this is where I format the header. --*/ 
+header {
+  color:#08403E;
+  background-color:#f2e3d5;
+  padding: 1rem 4vw;
+  display: flex;
+  align-items:flex-end;
+}
+header div {
+  padding: .1rem 1.5vw;
+}
+header h1{
+  color:#08403E;
+  margin: 0;
+}
+header p{
+  color:#08403E;
+  margin: 0;
+  letter-spacing: .2px;
+}
+
+/*--- this is where I format navigation. ---*/
+
+/*small screens*/
+@media only screen and (max-width: 775px) { 
+        body 
+        nav ul { 
+          margin: 0;
+          padding: 0 2vw;
+          list-style-type: none;
+        }
+
+        nav a {
+          display:block;
+          padding: .8rem;
+          text-decoration: none;
+          font-weight: 400;
+          text-transform: capitalize;
+          text-align: center;
+          border-bottom: solid 1px #08403E;
+          color:#08403E;
+        }
+        nav .active a{
+          background-color: #08403E;
+          background-image: linear-gradient(to bottom,#08403E, #042423);
+          color: #f2e3d5;
+        }
+} /*end of media query*/
+
+/* wide screens*/
+@media only screen and (min-width: 776px) { 
+        body 
+
+        nav{
+          background-color:#08403E;
+        }
+        
+        nav ul{ 
+          list-style-type: none;
+          padding: 0 32px;
+          margin: 0;
+          display: flex;
+        }
+        
+        nav ul li a{
+          font-size: 1.1rem;
+          text-decoration: none;
+          color: #f2e3d5;
+          font-weight: 400;
+          display: block;
+          padding: 18px 16px;
+        }
+        
+        nav li.active a{ 
+          background-color: #f2e3d5;
+          color: #08403E;
+        }
+        
+        nav a:hover{
+          color: #f2e3d5;
+        }
+        
+
+} /*end of media query*/
+
+
+
+/*--- this is where I format main body. ---*/
+main {
+  padding: 0px 32px;
+  }
+  
+  main h1 {
+    color: #706513;
+  }
+  
+  main h2 {
+    color: #08403E;
+    margin-bottom: .2rem;
+  }
+  
+  main p {
+    color: #520120;
+    margin: 0 0 .4rem 0;
+  }
+  
+  main ol {
+    padding: .5rem 3vw;
+    background-color: #706513;
+    width: 60rem;
+    border: 2px solid #08403E;
+    border-radius: .5rem;
+    color:#f2e3d5;
+  }
+  
+  main dl dt {
+    color:#08403E;
+    font-weight: 800;
+  }
+  
+  main dl dd {
+    color: #520120;
+    font-size: .9rem;
+  }
+  
+  main ul {
+    list-style-type: square;
+    color:#520120;
+  }
+  
+  main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+  }
+  
+  main address{
+    font-style: italic;
+    color:#08403E;
+    padding: .0rem .5rem .8rem .5rem;
+  }
+  
+  main a {
+    color:#520120;
+  }
+  
+  main a:hover {
+    color:#B57114;
+  }
+
+figure.wrapped {
+  width: 30%;
+  margin: 0 0 0 2%;
+  float: right;
+}
+
+figure.wrapped img {
+  width: 100%;
+  height: auto;
+}
+
+figure.wrapped figcaption{
+  text-align: center;
+  font-size: .75rem;
+}
+
+figure.hero {
+  width: 100%;
+  margin: 0;
+}
+
+figure.hero img {
+  width: 100%;
+  height: auto;
+  padding-top: 3vw;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.gallery figure{
+  margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+  text-align: center;
+  font-size: .6rem;
+  color:#08403E
+}
+
+div.gallery img:hover {
+  box-shadow: 0px 0px 5px #042423;
+}
+
+.myForm fieldset {
+  border: 1px solid #706513;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+
+.myForm legend {
+  color:#706513;
+  font-size: .9rem;
+}
+
+.myForm label {
+  margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea{
+  display: block;
+}
+
+.myForm [type=text], [type=tel], .myForm select, .myForm textarea{
+  border: solid 1px;
+  color:#520120;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
+}
+
+.myForm textarea {
+  height: 6rem;
+}
+
+.myForm :required {
+  background-color: rgba(81,1,32,0.1);
+}
+
+.myForm [type=submit]{
+  background-color:rgba(81,1,32,0.1);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color:#08403E;
+  margin: 1rem 0 2rem 1vw;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
+}
+
+
+/*--- this is where I format my footer. ---*/
+
+footer { 
+  background-color: #f2e3d5;
+  text-align: center;
+  color:#08403E;
+  padding: 1rem 0;
+  font-size: .8rem;
+}
+
+footer a{
+  color:#08403E;
+}
+
+header, nav, main, footer {
+  max-width: 60rem;
+  margin: 0 auto;
+}
